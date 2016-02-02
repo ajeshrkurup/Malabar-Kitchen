@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #595959;
+	color: white;
+	/*background-image: url("Images/back7.jpg"); */
+}
+
+#container {
+	width: 80%;
+	margin: 30px auto;
+}
+
+header {
+    height: 270px;
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+}
+
+header img {
+    float: left;
+    height: 80px;
+    width: 100px;
+}
+
+header h1 {
+    display: inline-block;
+    padding: 8px;
+    font-size: 48px;
+    margin-bottom: 50px;        
+}
+
+header h2 {
+    
+    text-align: right;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+header nav {
+    height: 53px;
+    background-color: black;
+    color: azure;
+}
+
+nav ul {
+    text-align: center;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: blue;
+}

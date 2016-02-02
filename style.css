@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #595959;
+	color: white;
+	/*background-image: url("Images/back7.jpg"); */
+}
+
+#container {
+	width: 80%;
+	margin: 30px auto;
+}
+
+header {
+    height: 270px;
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+}
+
+header img {
+    float: left;
+    height: 80px;
+    width: 100px;
+}
+
+header h1 {
+    display: inline-block;
+    padding: 8px;
+    font-size: 48px;
+    margin-bottom: 50px;        
+}
+
+header h2 {
+    
+    text-align: right;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+header nav {
+    height: 53px;
+    background-color: black;
+    color: azure;
+}
+
+nav ul {
+    text-align: center;
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+#slider {
+	float: left;
+	border: white solid 3px;
+	border-radius: 5px;
+	overflow: hidden;
+	height: 360px;
+	width: 99%;
+    margin-left: 3px
+
+}
+
+.slides {
+	position: relative;
+}
+
+.slides img {
+	height: 360px;
+	width: 100%;
+}
+
+#prev, #next {
+	float: left;
+	margin-top:150px;
+	cursor: pointer;
+	z-index: 100;
+	position: relative;
+}
+
+#prev {
+	margin-right: -56px;
+}
+
+#next {
+	margin-left: -54px;
+}
+
+.clear {
+    clear: both;
+}
+
+#side-panel {
+    
+}
+
+#left-side {
+    float: left;
+    height: 600px;
+    width: 45%;
+    padding: 10px;
+    font-size: 20px;
+    color: blue;
+    background-color: antiquewhite;
+    margin-top: 5px;
+    margin-left: 3px;
+    border: black dotted 2px;
+    border-radius: 5px;
+}
+
+#left-side h4 {
+    padding: 10px 0px;
+    margin: 5px 0px;
+    font-size: 24px;
+    color: black;
+}
+
+#left-side p {
+    margin: 3px 105px 3px 0 ;
+    line-height: 1.7;
+    font-weight: bold;
+}
+#right-side {
+    float: right;
+    width: 50%;
+    height: 600px;
+    padding: 10px;
+    font-size: 20px;
+    color: blue;
+    background-color: antiquewhite;
+    margin-top: 5px;
+    margin-right: 3px;
+    border: black dotted 2px;
+    border-radius: 5px;
+}
