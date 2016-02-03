@@ -64,3 +64,40 @@ nav ul li:hover {
     cursor: pointer;
     color: blue;
 }
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+table caption {
+    font-size: 22px;
+    color: beige;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+table tr {
+    display: block;
+    margin: 5px 0 15px 0;
+    padding: 2px 0 2px 0;    
+}
+
+table tr:hover {
+    background-color: dimgrey;
+}
+
+table td {
+    font-size: 20px;
+    letter-spacing: 1.1px;
+    display: inline-block;
+    padding: 1px;
+    margin: 0px;
+}
+
+.middle-column {
+    width: 100px;
+}
